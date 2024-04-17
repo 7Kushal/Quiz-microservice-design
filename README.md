@@ -27,38 +27,6 @@ Before running this application, ensure you have the following prerequisites ins
 - Maven
 - [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-installing-the-cli)
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd your-repository
-   ```
-
-3. Build the project using Maven:
-
-   ```bash
-   mvn clean install
-   ```
-
-## Usage
-
-To run the application locally, execute the following command:
-
-```bash
-java -jar target/your-application.jar
-```
-
-The application will start and be accessible at `http://localhost:8080`.
-
-## Endpoints
-
 The following endpoints are available:
 
 - `POST /api/quizzes`: Create a new quiz.
@@ -66,14 +34,6 @@ The following endpoints are available:
 - `GET /api/quizzes`: Retrieve all quizzes.
 - `POST /api/quizzes/{id}/submit`: Submit a quiz for grading.
 - `GET /api/quizzes/completed`: Retrieve completed quizzes.
-
-## Testing
-
-To run the tests for the application, execute the following command:
-
-```bash
-mvn test
-```
 
 ## Deployment
 
